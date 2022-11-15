@@ -1,0 +1,30 @@
+{
+  "name": "test_bot",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KIRSTa/test_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KIRSTa/test_bot/issues"
+  },
+  "homepage": "https://github.com/KIRSTa/test_bot#readme",
+  "dependencies": {
+    "@types/node": "^18.11.9",
+    "dotenv": "^16.0.3",
+    "google-spreadsheet": "^3.3.0",
+    "telegraf": "^4.10.0"
+  },
+  "devDependencies": {
+    "@types/google-spreadsheet": "^3.3.0",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1"
+  }
+}
